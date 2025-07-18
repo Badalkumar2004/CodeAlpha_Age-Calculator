@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Advanced Age Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  <div class="card">
+    <header>
+      <h1>🎂 Age Calculator</h1>
+    </header>
+
+    <div>
+      <label for="inputDob">Enter your Date of Birth:</label>
+      <input id="inputDob" type="date" value="2000-01-01" />
+    </div>
+
+    <div>
+      <label for="cdate">Current Date:</label>
+      <input id="cdate" type="date" />
+    </div>
+
+    <button onclick="getDOB()">Calculate</button>
+
+    <div id="currentAge"></div>
+    <div id="nextBirthday"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
